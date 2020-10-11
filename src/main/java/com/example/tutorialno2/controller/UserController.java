@@ -26,7 +26,7 @@ public class UserController {
 
     @GetMapping
     public String helloUsers() {
-        return "HAI";
+        return "HAI Semua";
     }
     
     @GetMapping("/all")
